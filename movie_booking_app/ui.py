@@ -57,7 +57,6 @@ def main_screen(root):
 
     movies = list_movies()
 
-    # If DB is empty, add default movies
     if not movies:
         add_movie("Interstellar", 5)
         add_movie("Inception", 3)
